@@ -1,6 +1,8 @@
 <script lang="ts">
   import GridBackground from "#lib/components/GridBackground.svelte";
 
+  export const prerender = true;
+
   const features = [
     {
       title: "Fast and lightweight",
